@@ -103,9 +103,8 @@ do {
 	} else{
 		vacunaMenosUsada = "China";
 	}
-
-
-	seguir == prompt("Desea seguir ingresando datos? s/n")
+	
+	seguir == prompt("Desea seguir ingresando datos? s/n");
 } while (seguir=="s");
 
 promedioEdadRusa=acumEdadRusa/contEdadRusa;

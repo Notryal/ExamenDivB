@@ -52,8 +52,8 @@ for (let i = 0; i < 8; i++) {
             cepa = prompt("Incorrecto!No ingrese numeros ni deje en blanco, Ingrese su cepa: ").toLowerCase();
             }
     }else{  
-            alert("Su resultado es negativo! Felicitaciones!")
-            contNegativo++
+            alert("Su resultado es negativo! Felicitaciones!");
+            contNegativo++;
     }
     //c
     if(cepa=="delta"){
@@ -77,7 +77,7 @@ for (let i = 0; i < 8; i++) {
     //d
     if(flag || edad<maxEdadContagiado){
         flag=0;
-        maxEdadContagiado=edad
+        maxEdadContagiado=edad;
     }
 
 }

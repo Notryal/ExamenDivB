@@ -75,7 +75,7 @@ function mostrar()
 		descuento = "No hay descuento, page con el importe bruto ";
 	}
 
-	promedioAsia = acumAsia/contAsia
+	promedioAsia = acumAsia/contAsia;
 
 	console.log("El origen que envió mayor cantidad de vacunas es : "+origenMaxCantidad);
 	console.log("El origen que envió mayor cantidad de vacunas es : "+promedioAsia);
